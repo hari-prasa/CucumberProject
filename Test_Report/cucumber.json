@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "MakeMyTrip login Scenario",
+        "description": "",
+        "id": "makemytrip-feature;makemytrip-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34046284000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginFunctionality.user_enters_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95101782700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on MakeMyTrip Home Page",
+            "match": {
+              "location": "LoginFunctionality.user_is_on_MakeMyTrip_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2469305700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user capture screen shot after successfull login",
+            "match": {
+              "location": "LoginFunctionality.user_capture_screen_shot_after_successfull_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4347014100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able close the browser",
+            "match": {
+              "location": "LoginFunctionality.user_is_able_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@A"
+          }
+        ]
+      }
+    ],
+    "name": "MakeMyTrip Feature",
+    "description": "",
+    "id": "makemytrip-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

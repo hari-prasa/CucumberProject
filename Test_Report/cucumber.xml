@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="135.964386">
+<testcase classname="MakeMyTrip Feature" name="MakeMyTrip login Scenario" time="135.964386">
+<system-out><![CDATA[Given user enters username and password.....................................passed
+When user is on MakeMyTrip Home Page........................................passed
+And user capture screen shot after successfull login........................passed
+Then user is able close the browser.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
